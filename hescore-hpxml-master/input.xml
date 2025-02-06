@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HPXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="3.1" xmlns="http://hpxmlonline.com/2019/10">
+  <XMLTransactionHeaderInformation>
+    <XMLType />
+    <XMLGeneratedBy>Inspection Depot</XMLGeneratedBy>
+    <CreatedDateAndTime>2025-02-06T17:37:35.6671742+05:30</CreatedDateAndTime>
+    <Transaction>create</Transaction>
+  </XMLTransactionHeaderInformation>
+  <SoftwareInfo>
+    <SoftwareProgramUsed>EnergyScore From Inspection Depot</SoftwareProgramUsed>
+    <SoftwareProgramVersion>1.0</SoftwareProgramVersion>
+  </SoftwareInfo>
+  <Building>
+    <BuildingID id="HPXMLId-0194daae-118b-7ac2-a3ad-10568f18f3cd" />
+    <Site>
+      <SiteID id="HPXMLId-0194daae-114e-7b54-ac0d-30695c79c825" />
+      <Address>
+        <AddressType>street</AddressType>
+        <Address1>12323434</Address1>
+        <Address2>123234</Address2>
+        <CityMunicipality>123234</CityMunicipality>
+        <StateCode>Delaware234</StateCode>
+        <ZipCode>23231</ZipCode>
+      </Address>
+    </Site>
+    <ProjectStatus>
+      <EventType>quality assurance/monitoring</EventType>
+      <Date>2025-02-06</Date>
+    </ProjectStatus>
+    <BuildingDetails>
+      <BuildingSummary>
+        <Site>
+          <OrientationOfFrontOfHome>southeast</OrientationOfFrontOfHome>
+          <AzimuthOfFrontOfHome>3</AzimuthOfFrontOfHome>
+        </Site>
+        <BuildingConstruction>
+          <YearBuilt>2000</YearBuilt>
+          <ResidentialFacilityType>single-family attached</ResidentialFacilityType>
+          <NumberofConditionedFloorsAboveGrade>3</NumberofConditionedFloorsAboveGrade>
+          <AverageCeilingHeight>3</AverageCeilingHeight>
+          <NumberofBedrooms>3</NumberofBedrooms>
+          <ConditionedFloorArea>3</ConditionedFloorArea>
+          <ConditionedBuildingVolume>3</ConditionedBuildingVolume>
+        </BuildingConstruction>
+      </BuildingSummary>
+      <Enclosure>
+        <AirInfiltration>
+          <AirInfiltrationMeasurement>
+            <SystemIdentifier id="HPXMLId-0194daba-9e92-7328-abbc-b5babcd8afcf" />
+            <HousePressure>1</HousePressure>
+            <LeakinessDescription>leaky</LeakinessDescription>
+            <BuildingAirLeakage>
+              <UnitofMeasure>CFM</UnitofMeasure>
+              <AirLeakage>0.4</AirLeakage>
+            </BuildingAirLeakage>
+          </AirInfiltrationMeasurement>
+          <AirInfiltrationMeasurement>
+            <SystemIdentifier id="HPXMLId-0194daba-9e9f-7e6b-b727-a9359b7a8f60" />
+            <HousePressure>1</HousePressure>
+            <LeakinessDescription>very leaky</LeakinessDescription>
+            <BuildingAirLeakage>
+              <UnitofMeasure>ACH</UnitofMeasure>
+              <AirLeakage>0.6</AirLeakage>
+            </BuildingAirLeakage>
+          </AirInfiltrationMeasurement>
+        </AirInfiltration>
+      </Enclosure>
+    </BuildingDetails>
+  </Building>
+</HPXML>
