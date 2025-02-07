@@ -40,7 +40,9 @@ setup(
     python_requires='>=3.7',
     install_requires=[
         'lxml',
-        'jsonschema'
+        'jsonschema',
+        'flask',
+        'flask-cors',
     ],
     extras_require={
         'dev': [
@@ -50,7 +52,7 @@ setup(
             'sphinx_rtd_theme',
             'sphinx-autobuild',
             'pytest',
-            'pytest-cov'
+            'pytest-cov',
         ],
         'test': [
             'flake8',
